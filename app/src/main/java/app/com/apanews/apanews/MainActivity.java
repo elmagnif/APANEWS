@@ -88,7 +88,7 @@ public class MainActivity extends ActionBarActivity {
             @Override
             public void onReceivedError(WebView view, int errorCode, String description, String failingUrl) {
               //loadUrl("file:///assets/error.html");
-                browser.loadUrl("file:///android_asset/error.html");
+                browser.loadUrl("file:///android_asset/error1.html");
                 Toast.makeText(getApplicationContext(), "AUCUNE CONNEXION INTERNET " ,Toast.LENGTH_LONG).show();
                 //Intent intent = new Intent(MainActivity.this, ArticleRead.class);
              //   startActivity(intent);
