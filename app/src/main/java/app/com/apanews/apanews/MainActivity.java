@@ -21,6 +21,8 @@ public class MainActivity extends ActionBarActivity {
     private ProgressDialog pDialog;
 
 
+//MBAYEC CAMARA
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
