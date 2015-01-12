@@ -13,9 +13,11 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.ProgressBar;
 import android.widget.Toast;
 
 
@@ -28,7 +30,13 @@ public class SplashScreen extends Activity {
 
         setContentView(R.layout.activity_splashscreen);
 
-        int myTimer = 3000;
+        //Loading Spinner
+        ProgressBar spinner;
+        spinner = (ProgressBar)findViewById(R.id.progressBar1);
+        spinner.setVisibility(View.VISIBLE);
+        //end laod
+
+        int myTimer = 6000;
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
